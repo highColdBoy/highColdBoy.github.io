@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="无人问津也好，技不如人也罢，你要试着冷静下来，去做自己该做的事情，而不是烦躁和焦虑，毁掉你本该不多的热情和定力，心可以睡，手不能停，该干什么干什么，在崩溃中继续前行，才是一个成年人的修养。">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="有人吹风，有人被爱，有人像路边的狗被人踹了又踹。">
 <title>Posts</title>
 
 <link rel='canonical' href='https://highcoldboy.github.io/post/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Posts">
-<meta property='og:description' content="无人问津也好，技不如人也罢，你要试着冷静下来，去做自己该做的事情，而不是烦躁和焦虑，毁掉你本该不多的热情和定力，心可以睡，手不能停，该干什么干什么，在崩溃中继续前行，才是一个成年人的修养。">
+<link rel="stylesheet" href="/scss/style.min.02e268db102490f5c1081db8efe308c06dab22cb6d73423d06b9bd1cf3954877.css"><meta property='og:title' content="Posts">
+<meta property='og:description' content="有人吹风，有人被爱，有人像路边的狗被人踹了又踹。">
 <meta property='og:url' content='https://highcoldboy.github.io/post/'>
 <meta property='og:site_name' content='iswleii'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-05-09T23:48:15&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-05-11T01:33:05&#43;08:00 '/>
 <meta name="twitter:title" content="Posts">
-<meta name="twitter:description" content="无人问津也好，技不如人也罢，你要试着冷静下来，去做自己该做的事情，而不是烦躁和焦虑，毁掉你本该不多的热情和定力，心可以睡，手不能停，该干什么干什么，在崩溃中继续前行，才是一个成年人的修养。"><link rel="alternate" type="application/rss&#43;xml" href="https://highcoldboy.github.io/post/index.xml">
+<meta name="twitter:description" content="有人吹风，有人被爱，有人像路边的狗被人踹了又踹。"><link rel="alternate" type="application/rss&#43;xml" href="https://highcoldboy.github.io/post/index.xml">
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
     <body class="">
+<script src=https://highcoldboy.github.io/background/sakura.js></script> 
+<script src=https://highcoldboy.github.io/background/raindrop.js></script> 
+
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -30,14 +33,37 @@
         const colorSchemeItem = localStorage.getItem(colorSchemeKey);
         const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
+
         if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
             
 
             document.documentElement.dataset.scheme = 'dark';
+            stopSakura();
+            startRain();
         } else {
             document.documentElement.dataset.scheme = 'light';
+            stopRain();
+            startSakura();
         }
     })();
+
+    
+    window.addEventListener('onColorSchemeChange', (event) => {
+            
+            const spanElement = document.querySelector('#dark-mode-toggle span');
+            const colorScheme = event.detail; 
+            if (colorScheme == 'dark' || colorScheme === 'auto') {
+                
+                spanElement.textContent = '浅色模式';
+                stopSakura();
+                startRain();
+            } else {
+                
+                spanElement.textContent = '深色模式';
+                stopRain();
+                startSakura();
+            }
+        });
 </script>
 <div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
     <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
@@ -56,13 +82,13 @@
                     
                     
                         
-                        <img src="/img/header_hu_7bc0c4c1cf8440f.jpg" width="300"
-                            height="289" class="site-logo" loading="lazy" alt="Avatar">
+                        <img src="/img/wave_hu_d2dec2d672062305.gif" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
                 </a>
                 
-                    <span class="emoji">💋</span>
+                    <span class="emoji">😘</span>
                 
             </figure>
             
@@ -70,7 +96,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">iswleii</a></h1>
-            <h2 class="site-description">无人问津也好，技不如人也罢，你要试着冷静下来，去做自己该做的事情，而不是烦躁和焦虑，毁掉你本该不多的热情和定力，心可以睡，手不能停，该干什么干什么，在崩溃中继续前行，才是一个成年人的修养。</h2>
+            <h2 class="site-description">有人吹风，有人被爱，有人像路边的狗被人踹了又踹。</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -83,7 +109,7 @@
                     >
                         
                         
-                            <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1746802751627" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6388" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><path d="M896.3052803 427.59336267H465.08398823c-20.69630173 0-37.49062554 16.79432382-37.49062556 37.49062555l-0.02636472 93.75292941c0 20.69630173 16.76795911 37.49062554 37.49062556 37.51699027h262.51347546c20.69630173 0 37.49062554 16.79432382 37.49062555 37.49062638v18.74531277a112.49824219 112.49824219 0 0 1-112.49824219 112.49824219H296.32344217a37.49062554 37.49062554 0 0 1-37.49062554-37.49062556V371.38378824a112.49824219 112.49824219 0 0 1 112.49824218-112.49824219L896.22618615 258.85918133c20.69630173 0 37.49062554-16.76795911 37.49062557-37.46426165L933.79590585 127.64199027h0.02636472A37.49062554 37.49062554 0 0 0 896.35800973 90.125h-0.02636471L371.38378824 90.15136472C216.06924714 90.15136472 90.15136472 216.06924714 90.15136472 371.38378824v524.94785678c0 20.69630173 16.79432382 37.49062554 37.49062555 37.49062555h553.07900829a253.101272 253.101272 0 0 0 253.10127201-253.10127201v-215.61064563c0-20.69630173-16.79432382-37.49062554-37.49062555-37.49062554z" p-id="6389" fill="#8a8a8a"></path></svg>
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-sitemap"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" /><path d="M15 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" /><path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" /><path d="M6 15v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1" /><path d="M12 9l0 3" /></svg>
                         
                     </a>
                 </li>
@@ -104,6 +130,20 @@
 
 
 
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://music.163.com/#/user/home?id=1650145693'
+                        target="_blank"
+                        title="网易云音乐"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-netease-music"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 4c-2.93 1.346 -5 5.046 -5 8.492c0 4.508 4 7.508 8 7.508s8 -3 8 -7c0 -3.513 -3.5 -5.513 -6 -5.513s-5 1.513 -5 4.513c0 2 1.5 3 3 3s3 -1 3 -3c0 -3.513 -2 -4.508 -2 -6.515c0 -3.504 3.5 -2.603 4 -1.502" /></svg>
                         
                     </a>
                 </li>
@@ -191,7 +231,7 @@
         
         
         <li >
-            <a href='/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/' >
+            <a href='/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/' >
                 
                 
                 
@@ -204,7 +244,7 @@
 
 
                 
-                <span>友情链接</span>
+                <span>技术链接</span>
             </a>
         </li>
         
@@ -229,7 +269,7 @@
 
 
 
-                        <span>暗色模式</span>
+                        <span>深色模式</span>
                     </li>
                 
             </ol>
@@ -282,7 +322,7 @@
                     <a href="/archives/#2025">
                         
                             <span class="year">2025</span>
-                            <span class="count">2</span>
+                            <span class="count">1</span>
                         
                     </a> 
                 </div>
@@ -291,14 +331,6 @@
                         
                             <span class="year">2020</span>
                             <span class="count">1</span>
-                        
-                    </a> 
-                </div>
-            <div class="archives-year">
-                    <a href="/archives/#2019">
-                        
-                            <span class="year">2019</span>
-                            <span class="count">2</span>
                         
                     </a> 
                 </div>
@@ -325,61 +357,25 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/categories/syntax/" class="font_size_1">
-                Syntax
+            <a href="/categories/buildstand/" class="font_size_1">
+                建站
+            </a>
+        
+            <a href="/categories/mac/" class="font_size_1">
+                mac
+            </a>
+        
+            <a href="/categories/php/" class="font_size_1">
+                php
             </a>
         
             <a href="/categories/test/" class="font_size_1">
-                Test
-            </a>
-        
-            <a href="/categories/themes/" class="font_size_1">
-                Themes
-            </a>
-        
-            <a href="/categories/%E6%B5%8B%E8%AF%95/" class="font_size_1">
                 测试
             </a>
         
     </div>
 </section>
 
-            
-        
-            
-                <section class="widget tagCloud">
-    <div class="widget-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
-  <circle cx="9" cy="9" r="2" />
-</svg>
-
-
-
-    </div>
-    <h2 class="widget-title section-title">标签云</h2>
-
-    <div class="tagCloud-tags">
-        
-            <a href="/tags/css/" class="font_size_1">
-                Css
-            </a>
-        
-            <a href="/tags/html/" class="font_size_1">
-                Html
-            </a>
-        
-            <a href="/tags/markdown/" class="font_size_1">
-                Markdown
-            </a>
-        
-            <a href="/tags/themes/" class="font_size_1">
-                Themes
-            </a>
-        
-    </div>
-</section>
             
         
     </aside>
@@ -395,7 +391,7 @@
 
         <div class="section-card">
             <div class="section-details">
-                <h3 class="section-count">5 个页面</h3>
+                <h3 class="section-count">2 个页面</h3>
                 <h1 class="section-term">Posts</h1>
                 
             </div>
@@ -405,22 +401,11 @@
     <section class="article-list--compact">
         
             <article>
-    <a href="/p/newtest/">
+    <a href="/p/usestack/">
         <div class="article-details">
-            <h2 class="article-title">Newtest</h2>
+            <h2 class="article-title">UseStack</h2>
             <footer class="article-time">
-                <time datetime='2025-05-09T23:48:15&#43;08:00'>2025-05-09</time>
-            </footer>
-        </div>
-    </a>
-</article>
-        
-            <article>
-    <a href="/p/my-first/">
-        <div class="article-details">
-            <h2 class="article-title">My First</h2>
-            <footer class="article-time">
-                <time datetime='2025-05-09T21:46:32&#43;08:00'>2025-05-09</time>
+                <time datetime='2025-05-10T15:01:25&#43;08:00'>2025-05-10 15:01:25</time>
             </footer>
         </div>
     </a>
@@ -431,7 +416,7 @@
         <div class="article-details">
             <h2 class="article-title">Chinese Test</h2>
             <footer class="article-time">
-                <time datetime='2020-09-09T00:00:00Z'>2020-09-09</time>
+                <time datetime='2020-09-09T00:00:00Z'>2020-09-09 00:00:00</time>
             </footer>
         </div>
             <div class="article-image">
@@ -447,21 +432,6 @@
 </article>
         
     </section>
-    <nav class='pagination'>
-        
-        
-
-        
-            
-                <span class='page-link current'>1</span>
-                
-            
-            
-                    <a class='page-link' href='/post/page/2/'>2</a>
-                
-            
-    </nav>
-
 <footer class="site-footer">
     <section class="copyright">
         &copy; 
@@ -495,5 +465,150 @@
     }());
 </script>
 
+<script>
+  function initTocHide() {
+      
+      let toc = document.querySelector(".widget--toc");
+      if (!toc) {
+          return;
+      }
+      
+      window.addEventListener('scroll', function() {
+          
+          let openUl = document.querySelectorAll(".open");
+          if (openUl.length > 0) {
+            openUl.forEach((ul) => {
+              ul.classList.remove("open")
+            })
+          }
+          
+          let currentLi = document.querySelector(".active-class");
+          if (!currentLi) {
+              return
+          }
+          
+          if (currentLi.children.length > 1) {
+              currentLi.children[1].classList.add("open")
+          }
+          
+          let ul = currentLi.parentElement;
+          do {
+              ul.classList.add("open");
+              ul = ul.parentElement.parentElement
+          } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+      });
+  }
+  initTocHide()
+</script>
+
+
+
+<script>
+  
+
+  function initScrollTop() {
+      let rightSideBar = document.querySelector(".right-sidebar");
+      if (!rightSideBar) {
+          return;
+      }
+      
+      let btn = document.createElement("div");
+      btn.id = "backTopBtn";
+      btn.onclick = backToTop
+      rightSideBar.appendChild(btn)
+      
+      window.onscroll = function() {
+          
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              btn.style.display = "block";
+          } else {
+              btn.style.display = "none";
+          }
+      };
+  }
+
+  
+
+  function backToTop(){
+      window.scrollTo({ top: 0, behavior: "smooth" })
+  }
+
+  initScrollTop();
+</script>
+
+
+
+<script>
+function initCodeMoreBox() {
+  let codeBlocks = document.querySelectorAll(".highlight");
+  if (!codeBlocks) {
+    return;
+  }
+  codeBlocks.forEach(codeBlock => {
+    
+    if (codeBlock.scrollHeight <= codeBlock.clientHeight) {
+      return;
+    }
+    
+    
+    let codeMoreBox = document.createElement('div');
+    codeMoreBox.classList.add('code-more-box');
+    
+    let codeMoreBtn = document.createElement('span');
+    codeMoreBtn.classList.add('code-more-btn');
+    codeMoreBtn.addEventListener('click', () => {
+      codeBlock.classList.add('code-show');
+      codeMoreBox.style.display = 'none';
+      
+      window.dispatchEvent(new Event('resize'))
+    })
+    
+    let img = document.createElement('img');
+    img.classList.add('code-more-img');
+    img.src = "/icons/codeMore.png";
+    
+    codeMoreBtn.appendChild(img);
+    codeMoreBox.appendChild(codeMoreBtn);
+    codeBlock.appendChild(codeMoreBox)
+  })
+}
+
+initCodeMoreBox();
+</script>
+
+
+
+<script defer src="https://cn.vercount.one/js"></script>
+
+
+<script>
+  function showHideView() {
+      
+      let viewCounts = document.querySelectorAll("#viewCount");
+      if (viewCounts) {
+          
+          let article =  document.querySelector(".article-page");
+          if (!article) {
+              viewCounts.forEach(ele => {
+                  ele.style.display = 'none';
+              });
+          }
+      }
+  }
+  
+  showHideView();
+</script>
+
+
+
+
+ <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const html = document.documentElement;
+        scheme = html.getAttribute("data-scheme")
+        const spanElement = document.querySelector('#dark-mode-toggle span');
+        spanElement.textContent = scheme == 'dark' ? '深色模式' : '浅色模式';
+    })
+ </script>
     </body>
 </html>

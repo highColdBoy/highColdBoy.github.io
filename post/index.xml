@@ -7,26 +7,36 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>iswleii</copyright>
-        <lastBuildDate>Fri, 09 May 2025 23:48:15 +0800</lastBuildDate><atom:link href="https://highcoldboy.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Newtest</title>
-        <link>https://highcoldboy.github.io/p/newtest/</link>
-        <pubDate>Fri, 09 May 2025 23:48:15 +0800</pubDate>
+        <lastBuildDate>Sun, 11 May 2025 01:33:05 +0800</lastBuildDate><atom:link href="https://highcoldboy.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>UseStack</title>
+        <link>https://highcoldboy.github.io/p/usestack/</link>
+        <pubDate>Sat, 10 May 2025 15:01:25 +0800</pubDate>
         
-        <guid>https://highcoldboy.github.io/p/newtest/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>My First</title>
-        <link>https://highcoldboy.github.io/p/my-first/</link>
-        <pubDate>Fri, 09 May 2025 21:46:32 +0800</pubDate>
-        
-        <guid>https://highcoldboy.github.io/p/my-first/</guid>
-        <description>&lt;h1 id=&#34;我的第一篇文章&#34;&gt;我的第一篇文章
-&lt;/h1&gt;&lt;p&gt;啊放假啊是咖啡哈哈发啊喝咖啡哈看&lt;/p&gt;
-&lt;h1 id=&#34;2222&#34;&gt;2222
-&lt;/h1&gt;&lt;p&gt;啊罚款交话费哈为你疯狂脑外科； 方能忘却烦恼；窝囊废&lt;/p&gt;
-&lt;h2 id=&#34;3&#34;&gt;3
-&lt;/h2&gt;&lt;p&gt;为飞我发和 fifafhuqwfuqwhifiuwhfhghwviuehwhwqf 晚饭后为 i 回复无法 i 还无法破坏我脾气很符合我访问 v 北区北区气温徘徊废弃物平衡阀 i 微博 v 恶霸 v 请问 v 博文 v 请问 v 企鹅不然我访问后发给我俊阿瑟 v 你全家我放假哦为配合 v 上班 v 额&lt;/p&gt;
+        <guid>https://highcoldboy.github.io/p/usestack/</guid>
+        <description>&lt;h1 id=&#34;stack-主题的一些自定义配置的用法&#34;&gt;stack 主题的一些自定义配置的用法
+&lt;/h1&gt;&lt;h2 id=&#34;md-引用颜色块&#34;&gt;md 引用颜色块
+&lt;/h2&gt;&lt;p&gt;可选项：NOTE | TIP | WARN | ERROR&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;gt;[!NOTE]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;gt; 这是markdown的引用块语法
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;效果展示：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote class=&#34;alert alert-note&#34;&gt;
+    &lt;p&gt;这是NOTE效果&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
+    &lt;p&gt;这是TIP效果&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;alert alert-warn&#34;&gt;
+    &lt;p&gt;这是WARN效果&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;alert alert-error&#34;&gt;
+    &lt;p&gt;这是ERROR效果&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr/&gt;
+配置参考 &lt;a href=&#34;https://letere-gzj.github.io/hugo-stack/&#34; target=&#34;_black&#34;&gt;莱特雷-letere&lt;/a&gt; 大佬博客
 </description>
         </item>
         <item>
@@ -115,277 +125,394 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;相册语法来自 &lt;a class=&#34;link&#34; href=&#34;https://typlog.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Typlog&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Markdown Syntax Guide</title>
-        <link>https://highcoldboy.github.io/p/markdown-syntax-guide/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://highcoldboy.github.io/p/markdown-syntax-guide/</guid>
-        <description>&lt;img src="https://highcoldboy.github.io/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
-&lt;h2 id=&#34;headings&#34;&gt;Headings
-&lt;/h2&gt;&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
-&lt;h1 id=&#34;h1&#34;&gt;H1
-&lt;/h1&gt;&lt;h2 id=&#34;h2&#34;&gt;H2
-&lt;/h2&gt;&lt;h3 id=&#34;h3&#34;&gt;H3
-&lt;/h3&gt;&lt;h4 id=&#34;h4&#34;&gt;H4
-&lt;/h4&gt;&lt;h5 id=&#34;h5&#34;&gt;H5
-&lt;/h5&gt;&lt;h6 id=&#34;h6&#34;&gt;H6
-&lt;/h6&gt;&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph
-&lt;/h2&gt;&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
-&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
-&lt;h2 id=&#34;blockquotes&#34;&gt;Blockquotes
-&lt;/h2&gt;&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
-&lt;h4 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution
-&lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h4 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution
-&lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br&gt;
-— &lt;cite&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;tables&#34;&gt;Tables
-&lt;/h2&gt;&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Name&lt;/th&gt;
-          &lt;th&gt;Age&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Bob&lt;/td&gt;
-          &lt;td&gt;27&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Alice&lt;/td&gt;
-          &lt;td&gt;23&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h4 id=&#34;inline-markdown-within-tables&#34;&gt;Inline Markdown within tables
-&lt;/h4&gt;&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Italics&lt;/th&gt;
-          &lt;th&gt;Bold&lt;/th&gt;
-          &lt;th&gt;Code&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;A&lt;/th&gt;
-          &lt;th&gt;B&lt;/th&gt;
-          &lt;th&gt;C&lt;/th&gt;
-          &lt;th&gt;D&lt;/th&gt;
-          &lt;th&gt;E&lt;/th&gt;
-          &lt;th&gt;F&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/td&gt;
-          &lt;td&gt;Phasellus ultricies, sapien non euismod aliquam, dui ligula tincidunt odio, at accumsan nulla sapien eget ex.&lt;/td&gt;
-          &lt;td&gt;Proin eleifend dictum ipsum, non euismod ipsum pulvinar et. Vivamus sollicitudin, quam in pulvinar aliquam, metus elit pretium purus&lt;/td&gt;
-          &lt;td&gt;Proin sit amet velit nec enim imperdiet vehicula.&lt;/td&gt;
-          &lt;td&gt;Ut bibendum vestibulum quam, eu egestas turpis gravida nec&lt;/td&gt;
-          &lt;td&gt;Sed scelerisque nec turpis vel viverra. Vivamus vitae pretium sapien&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks
-&lt;/h2&gt;&lt;h4 id=&#34;code-block-with-backticks&#34;&gt;Code block with backticks
-&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h4 id=&#34;code-block-indented-with-four-spaces&#34;&gt;Code block indented with four spaces
-&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
-&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
-&amp;lt;head&amp;gt;
-  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&amp;rsquo;s internal highlight shortcode
-&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h4 id=&#34;diff-code-block&#34;&gt;Diff code block
-&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[dependencies.bevy]
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git = &amp;#34;https://github.com/bevyengine/bevy&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rev = &amp;#34;11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;- features = [&amp;#34;dynamic&amp;#34;]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gd&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gi&#34;&gt;+ features = [&amp;#34;jpeg&amp;#34;, &amp;#34;dynamic&amp;#34;]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;list-types&#34;&gt;List Types
-&lt;/h2&gt;&lt;h4 id=&#34;ordered-list&#34;&gt;Ordered List
-&lt;/h4&gt;&lt;ol&gt;
-&lt;li&gt;First item&lt;/li&gt;
-&lt;li&gt;Second item&lt;/li&gt;
-&lt;li&gt;Third item&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;unordered-list&#34;&gt;Unordered List
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;List item&lt;/li&gt;
-&lt;li&gt;Another item&lt;/li&gt;
-&lt;li&gt;And another item&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;nested-list&#34;&gt;Nested list
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;Fruit
-&lt;ul&gt;
-&lt;li&gt;Apple&lt;/li&gt;
-&lt;li&gt;Orange&lt;/li&gt;
-&lt;li&gt;Banana&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Dairy
-&lt;ul&gt;
-&lt;li&gt;Milk&lt;/li&gt;
-&lt;li&gt;Cheese&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;other-elements--abbr-sub-sup-kbd-mark&#34;&gt;Other Elements — abbr, sub, sup, kbd, mark
-&lt;/h2&gt;&lt;p&gt;&lt;abbr title=&#34;Graphics Interchange Format&#34;&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;
-&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
-&lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Press &lt;kbd&gt;CTRL&lt;/kbd&gt; + &lt;kbd&gt;ALT&lt;/kbd&gt; + &lt;kbd&gt;Delete&lt;/kbd&gt; to end the session.&lt;/p&gt;
-&lt;p&gt;Most &lt;mark&gt;salamanders&lt;/mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
-&lt;h2 id=&#34;hyperlinked-image&#34;&gt;Hyperlinked image
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://google.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img src=&#34;https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Google&#34;
-	
-	
-&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>Math Typesetting</title>
-        <link>https://highcoldboy.github.io/p/math-typesetting/</link>
-        <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://highcoldboy.github.io/p/math-typesetting/</guid>
-        <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
-&lt;p&gt;In this example we will be using &lt;a class=&#34;link&#34; href=&#34;https://katex.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;KaTeX&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Create a partial under &lt;code&gt;/layouts/partials/math.html&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Within this partial reference the &lt;a class=&#34;link&#34; href=&#34;https://katex.org/docs/autorender.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Auto-render Extension&lt;/a&gt; or host these scripts locally.&lt;/li&gt;
-&lt;li&gt;Include the partial in your templates like so:&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&#34;我是测试目录折叠&#34;&gt;我是测试目录折叠
+&lt;/h2&gt;&lt;h3 id=&#34;第一章&#34;&gt;第一章
+&lt;/h3&gt;&lt;p&gt;急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。&lt;/p&gt;
+&lt;h3 id=&#34;第二章&#34;&gt;第二章
+&lt;/h3&gt;&lt;p&gt;急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。&lt;/p&gt;
+&lt;h3 id=&#34;第三章&#34;&gt;第三章
+&lt;/h3&gt;&lt;p&gt;急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。&lt;/p&gt;
+&lt;h1 id=&#34;测试2&#34;&gt;测试2
+&lt;/h1&gt;&lt;p&gt;急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。急于稳定市场信心，本周美国高调宣布与英国签订了所谓“首份关税贸易协议”。在其大张旗鼓的宣传背后，却掩盖了一个事实：这份所谓“协议”实际仅为框架性内容，双方尚未签署实体文件，具体细节也远未谈妥。尽管如此，白宫上下依然将这份八字没一撇的协议视为“胜利果实”，并试图以“维持对英国10%关税”作为范例，给其他进行贸易谈判的国家“立规矩”。&lt;/p&gt;
+&lt;p&gt;　　据彭博社、CNBC等10日报道，当地时间周五（9日）晚，在白宫椭圆形办公室回答记者提问时，特朗普宣称，对于那些希望与美国达成贸易协议的其他国家来说，与英国的贸易协议很可能会成为一个“典范”（model）。&lt;/p&gt;
+&lt;p&gt;　　综合英媒报道，虽然对英国进口汽车、钢铝关税做出部分让步，但美国从英国进口的其他大部分商品仍维持了10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　基于此，特朗普表示，无论其他国家与美国达成何种贸易协议，都仍要面临10%的基准关税。&lt;/p&gt;
+&lt;p&gt;　　当被问及那些实行零关税的国家能否得到“对等对待”时，他回答说：“总会有一个基准。”&lt;/p&gt;
+&lt;p&gt;　　“我的意思是，在某些时候可能会有例外。我们将拭目以待。有时候，某些国家为我们做了特别的事情，（那就另当别论），”他补充道，“但基本上，最低有10%的基准关税。有些关税会远高于这个水平，达到40%、50%或者60%。”&lt;/p&gt;
+&lt;p&gt;　　“我们昨天达成了一笔很棒的交易。”特朗普紧接着表示，他预计将“很快”达成另外“四五项”贸易协议。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; or .Params.math .Site.Params.math &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; partial &lt;span class=&#34;s2&#34;&gt;&amp;#34;math.html&amp;#34;&lt;/span&gt; . &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{{&lt;/span&gt; end &lt;span class=&#34;o&#34;&gt;}}&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;hello word&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;To enable KaTeX globally set the parameter &lt;code&gt;math&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in a project&amp;rsquo;s configuration&lt;/li&gt;
-&lt;li&gt;To enable KaTeX on a per page basis include the parameter &lt;code&gt;math: true&lt;/code&gt; in content files&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Use the online reference of &lt;a class=&#34;link&#34; href=&#34;https://katex.org/docs/supported.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Supported TeX Functions&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;examples&#34;&gt;Examples
-&lt;/h3&gt;&lt;p&gt;Inline math: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$&lt;/p&gt;
-&lt;p&gt;Block math:
-&lt;/p&gt;
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-$$</description>
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;41
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;42
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;43
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;44
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;45
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;46
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;47
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;48
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;49
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;50
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;51
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;52
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;53
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;54
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;55
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;56
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;57
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;58
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;59
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;60
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;61
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;62
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;63
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;64
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;65
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;66
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;67
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;68
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;69
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;70
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;71
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;72
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;73
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;74
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;75
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;76
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;77
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;78
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;79
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;80
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;highlight&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c&#34;&gt;/* 你可以根据需要调整这个高度 */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;max-height&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;400&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;overflow&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;hidden&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;code-show&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;max-height&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;none&lt;/span&gt; &lt;span class=&#34;cp&#34;&gt;!important&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;code-more-box&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;padding-top&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;78&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kp&#34;&gt;-webkit-&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;gradient&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;linear&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;left&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;top&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;left&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;bottom&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;from&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;rgba&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)),&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;to&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mh&#34;&gt;#fff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;position&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;absolute&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;left&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;right&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;bottom&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;z-index&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;code-more-btn&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;block&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;margin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;auto&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;44&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;background&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#f0f0f5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;border-top-left-radius&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;border-top-right-radius&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;padding-top&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;cursor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;pointer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;code-more-img&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;cursor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;pointer&lt;/span&gt; &lt;span class=&#34;cp&#34;&gt;!important&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;block&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;margin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;auto&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;initCodeMoreBox&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;codeBlocks&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;document.querySelectorAll(&amp;#34;.highlight&amp;#34;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;(!codeBlocks)&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;codeBlocks&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;forEach&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;codeBlock&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;//&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;校验是否overflow&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;err&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;(codeBlock.scrollHeight&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;codeBlock.clientHeight)&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;err&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;o&#34;&gt;//&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;元素初始化&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;o&#34;&gt;//&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;codeMoreBox&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;codeMoreBox&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;createElement&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;div&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;codeMoreBox&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;classList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;code-more-box&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;o&#34;&gt;//&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;codeMoreBtn&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;codeMoreBtn&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;createElement&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;span&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;codeMoreBtn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;classList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;code-more-btn&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;codeMoreBtn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;addEventListener&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;err&#34;&gt;codeBlock.classList.add(&amp;#39;code-show&amp;#39;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;err&#34;&gt;codeMoreBox.style.display&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;&amp;#39;none&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;err&#34;&gt;//&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;触发resize事件，重新计算目录位置&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;err&#34;&gt;window.dispatchEvent(new&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;Event(&amp;#39;resize&amp;#39;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;o&#34;&gt;//&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;createElement&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;img&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;classList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;code-more-img&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;src&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;(resources.Get&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;&amp;#34;icons/codeMore.png&amp;#34;).Permalink&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;o&#34;&gt;//&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;元素添加&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;codeMoreBtn&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;appendChild&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;img&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;codeMoreBox&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;appendChild&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;codeMoreBtn&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;codeBlock&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;appendChild&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;codeMoreBox&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;err&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;err&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;initCodeMoreBox&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
         </item>
         
     </channel>
