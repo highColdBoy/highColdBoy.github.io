@@ -57,7 +57,8 @@ function getRandomRaindrop(option) {
             ret = Math.random() * window.innerWidth;
             break;
         case "y":
-            ret = -10; // Start raindrops above the screen
+            // 修改这里，让雨滴可以出现在屏幕任何垂直位置
+            ret = Math.random() * window.innerHeight * 1.5 - 100; // 从屏幕上方100px到屏幕下方50%处
             break;
         case "speed":
             ret = 2 + Math.random() * 4; // Random speed between 2 and 6
@@ -142,5 +143,5 @@ function stopRain() {
     }
 }
 
-// Start rain effect when the script is loaded
-startRain();
+// 直接启动雨滴效果
+// startRain();
