@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Categories on iswleii</title>
+        <title>分类 on iswleii</title>
         <link>https://highcoldboy.github.io/categories/</link>
-        <description>Recent content in Categories on iswleii</description>
+        <description>Recent content in 分类 on iswleii</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>iswleii</copyright>
-        <lastBuildDate>Sun, 11 May 2025 01:33:05 +0800</lastBuildDate><atom:link href="https://highcoldboy.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>iswleii</copyright><atom:link href="https://highcoldboy.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>mac</title>
         <link>https://highcoldboy.github.io/categories/mac/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

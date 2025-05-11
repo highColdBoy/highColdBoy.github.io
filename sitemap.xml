@@ -2,17 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://highcoldboy.github.io/categories/</loc>
-    <lastmod>2025-05-11T01:33:05+08:00</lastmod>
+    <loc>https://highcoldboy.github.io/p/php-%E8%AF%AD%E6%B3%95%E7%B3%96/</loc>
+    <lastmod>2025-05-11T20:10:14+08:00</lastmod>
   </url><url>
     <loc>https://highcoldboy.github.io/post/</loc>
-    <lastmod>2025-05-11T01:33:05+08:00</lastmod>
-  </url><url>
-    <loc>https://highcoldboy.github.io/p/usestack/</loc>
-    <lastmod>2025-05-11T01:33:05+08:00</lastmod>
-  </url><url>
-    <loc>https://highcoldboy.github.io/p/test-chinese/</loc>
-    <lastmod>2025-05-11T01:33:05+08:00</lastmod>
+    <lastmod>2025-05-11T20:10:14+08:00</lastmod>
   </url><url>
     <loc>https://highcoldboy.github.io/page/</loc>
     <lastmod>2025-05-11T01:33:05+08:00</lastmod>
@@ -33,6 +27,9 @@
   </url><url>
     <loc>https://highcoldboy.github.io/categories/test/</loc>
     <lastmod>2025-05-11T01:33:05+08:00</lastmod>
+  </url><url>
+    <loc>https://highcoldboy.github.io/categories/</loc>
+    <lastmod>2025-05-11T20:10:14+08:00</lastmod>
   </url><url>
     <loc>https://highcoldboy.github.io/%E5%85%B3%E4%BA%8E/</loc>
     <lastmod>2025-05-11T01:33:05+08:00</lastmod>
