@@ -4,15 +4,16 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="记录一些平常开发很少遇到的语法糖，特殊时期可能用它会带来意想不到的收获">
 <title>php 语法糖</title>
 
-<link rel='canonical' href='https://highcoldboy.github.io/p/php-%E8%AF%AD%E6%B3%95%E7%B3%96/'>
+<link rel='canonical' href='https://highcoldboy.github.io/p/php-syntactic-sugar/'>
 
 <link rel="stylesheet" href="/scss/style.min.1949dea332dcec3797efb9c27634a110aebb97e98d0ecff8ac450c9ee536a13a.css"><meta property='og:title' content="php 语法糖">
 <meta property='og:description' content="记录一些平常开发很少遇到的语法糖，特殊时期可能用它会带来意想不到的收获">
-<meta property='og:url' content='https://highcoldboy.github.io/p/php-%E8%AF%AD%E6%B3%95%E7%B3%96/'>
+<meta property='og:url' content='https://highcoldboy.github.io/p/php-syntactic-sugar/'>
 <meta property='og:site_name' content='iswleii'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-05-11T18:11:07&#43;08:00'/><meta property='article:modified_time' content='2025-05-12T00:05:40&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-05-11T18:11:07&#43;08:00'/><meta property='article:modified_time' content='2025-05-12T22:30:08&#43;08:00'/><meta property='og:image' content='https://highcoldboy.github.io/p/php-syntactic-sugar/cover.png' />
 <meta name="twitter:title" content="php 语法糖">
-<meta name="twitter:description" content="记录一些平常开发很少遇到的语法糖，特殊时期可能用它会带来意想不到的收获">
+<meta name="twitter:description" content="记录一些平常开发很少遇到的语法糖，特殊时期可能用它会带来意想不到的收获"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://highcoldboy.github.io/p/php-syntactic-sugar/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -279,11 +280,59 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#箭头函数">箭头函数</a></li>
+    <li><a href="#解构赋值">&hellip;解构赋值</a></li>
+    <li><a href="#match-表达式">match 表达式</a></li>
+    <li><a href="#nullsafe运算符">nullsafe运算符</a></li>
+    <li><a href="#数组解构搭配-list">数组解构搭配 list</a></li>
+    <li><a href="#usort-搭配太空船操作符">usort 搭配太空船操作符</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
-    <article class="main-article">
+    <article class="has-image main-article">
     <header class="article-header">
+        <div class="article-image">
+            <a href="/p/php-syntactic-sugar/">
+                <img src="/p/php-syntactic-sugar/cover_hu_60e2a435e82bcfe7.png"
+                        srcset="/p/php-syntactic-sugar/cover_hu_60e2a435e82bcfe7.png 800w, /p/php-syntactic-sugar/cover_hu_a496a34cf50d9e28.png 1600w"
+                        width="800" 
+                        height="436" 
+                        loading="lazy"
+                        alt="Featured image of post php 语法糖" />
+                
+            </a>
+        </div>
+    
 
     <div class="article-details">
   
@@ -302,7 +351,7 @@
 
   <div class="article-title-wrapper">
     <h2 class="article-title">
-      <a href="/p/php-%E8%AF%AD%E6%B3%95%E7%B3%96/">php 语法糖</a>
+      <a href="/p/php-syntactic-sugar/">php 语法糖</a>
     </h2>
 
     
@@ -358,8 +407,8 @@
     <section class="article-content">
     
     
-    <h1 id="箭头函数">箭头函数
-</h1><div class="highlight"><div class="chroma">
+    <h2 id="箭头函数">箭头函数
+</h2><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -390,8 +439,8 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p><small style="color:red;">注意：PHP7.4+才能支持</small></p>
-<h1 id="解构赋值">&hellip;解构赋值
-</h1><div class="highlight"><div class="chroma">
+<h2 id="解构赋值">&hellip;解构赋值
+</h2><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -412,15 +461,15 @@
 </span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="s1">&#39;name&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;汉库克&#39;</span><span class="p">,</span> <span class="s1">&#39;email&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;hkk@hzw.com&#39;</span><span class="p">],</span>
 </span></span><span class="line"><span class="cl"><span class="p">];</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">#list($first, $second) = $users;
+</span></span><span class="line"><span class="cl"><span class="c1">## list($first, $second) = $users;
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">[</span><span class="nv">$first</span><span class="p">,</span> <span class="nv">$second</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$users</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nv">$info</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;name&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;路飞&#39;</span><span class="p">,</span> <span class="s1">&#39;email&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;lf@hzw.com&#39;</span><span class="p">,</span> <span class="s1">&#39;sex&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;male&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span> <span class="o">=&gt;</span> <span class="mi">123</span><span class="p">];</span>
 </span></span><span class="line"><span class="cl"><span class="p">[</span><span class="s1">&#39;name&#39;</span> <span class="o">=&gt;</span> <span class="nv">$name</span><span class="p">,</span> <span class="s1">&#39;email&#39;</span> <span class="o">=&gt;</span> <span class="nv">$email</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$info</span><span class="p">;</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h1 id="match-表达式">match 表达式
-</h1><div class="highlight"><div class="chroma">
+</div><h2 id="match-表达式">match 表达式
+</h2><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -462,7 +511,7 @@
 </span></span><span class="line"><span class="cl">        <span class="nv">$msg2</span> <span class="o">=</span> <span class="s1">&#39;未知&#39;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">#比较时也会比较数据类型
+</span></span><span class="line"><span class="cl"><span class="c1">## 比较时也会比较数据类型
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nv">$msg3</span> <span class="o">=</span> <span class="nx">match</span> <span class="p">(</span><span class="nv">$code</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="mi">200</span> <span class="o">=&gt;</span> <span class="s1">&#39;成功&#39;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">    <span class="mi">404</span> <span class="o">=&gt;</span> <span class="s1">&#39;没找到&#39;</span><span class="p">,</span>
@@ -475,8 +524,8 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p><small style="color:red;">注意：PHP8.0+才能支持</small></p>
-<h1 id="nullsafe运算符">nullsafe运算符
-</h1><div class="highlight"><div class="chroma">
+<h2 id="nullsafe运算符">nullsafe运算符
+</h2><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -555,8 +604,8 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p><small style="color:red;">注意：PHP8.0+才能支持</small></p>
-<h1 id="数组解构搭配-list">数组解构搭配 list
-</h1><div class="highlight"><div class="chroma">
+<h2 id="数组解构搭配-list">数组解构搭配 list
+</h2><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -581,8 +630,8 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p><small style="color:red;">注意：PHP7.1+才能支持</small></p>
-<h1 id="usort-搭配太空船操作符">usort 搭配太空船操作符
-</h1><div class="highlight"><div class="chroma">
+<h2 id="usort-搭配太空船操作符">usort 搭配太空船操作符
+</h2><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -607,7 +656,7 @@
 </span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="s1">&#39;name&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;汉库克&#39;</span><span class="p">,</span> <span class="s1">&#39;email&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;hkk@hzw.com&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span> <span class="o">=&gt;</span> <span class="mi">78</span><span class="p">],</span>
 </span></span><span class="line"><span class="cl"><span class="p">];</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 根据年龄从小到大
+</span></span><span class="line"><span class="cl"><span class="c1">## 根据年龄从小到大
 </span></span></span><span class="line"><span class="cl"><span class="c1">//    usort($users, function ($a, $b) {
 </span></span></span><span class="line"><span class="cl"><span class="c1">//        if ($a[&#39;age&#39;] == $b[&#39;age&#39;]) return 0;
 </span></span></span><span class="line"><span class="cl"><span class="c1">//        return ($a[&#39;age&#39;] &gt; $b[&#39;age&#39;]) ? 1 : -1;
@@ -635,7 +684,7 @@
 
 
         <span>
-            最后更新于 2025-05-12 00:05:40
+            最后更新于 2025-05-12 22:30:08
         </span>
     </section></footer>
 
@@ -646,6 +695,39 @@
     
 
     
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/php-this-self/">
+        
+        
+            <div class="article-image">
+                <img src="/p/php-this-self/cover.bf4c7b61df95433e220a70ce7e5e6059_hu_f919d9115e4a3e.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post php 类中 this 和 self 的区别"
+                        data-key="php-this-self" 
+                        data-hash="md5-v0x7Yd&#43;VQz4iCnDOfl5gWQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">php 类中 this 和 self 的区别</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
 
      
     
