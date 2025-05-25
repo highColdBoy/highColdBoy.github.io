@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>iswleii</copyright>
-        <lastBuildDate>Sun, 11 May 2025 01:33:05 +0800</lastBuildDate><atom:link href="https://highcoldboy.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 25 May 2025 17:28:49 +0800</lastBuildDate><atom:link href="https://highcoldboy.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
         <link>https://highcoldboy.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
@@ -32,8 +32,10 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://highcoldboy.github.io/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/</guid>
-        <description>&lt;p&gt;我喜欢一个作者，叫史铁生，他在随笔里面写过一段话，我非常喜欢的一个故事，是一个人十三四岁的夏天，在路上捡到一只真枪。因为无知，天不怕地不怕，他扣下扳机，没有人死，也没有人受伤，他认为自己开了空枪。&lt;/p&gt;
-&lt;p&gt;后来他三十岁或者更老，走在路上听到背后隐隐约约的风声。他停下来转过身去，子弹正中眉心。果然，在那明媚的阳光中传来了那一声枪响，那枪声沉闷之极。&lt;/p&gt;</description>
+        <description>&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
+    &lt;p&gt;我喜欢一个作者，叫史铁生，他在随笔里面写过一段话，我非常喜欢的一个故事，是一个人十三四岁的夏天，在路上捡到一只真枪。因为无知，天不怕地不怕，他扣下扳机，没有人死，也没有人受伤，他认为自己开了空枪。&lt;/p&gt;
+&lt;p&gt;后来他三十岁或者更老，走在路上听到背后隐隐约约的风声。他停下来转过身去，子弹正中眉心。果然，在那明媚的阳光中传来了那一声枪响，那枪声沉闷之极。&lt;/p&gt;&lt;/blockquote&gt;
+</description>
         </item>
         <item>
         <title>搜索</title>
